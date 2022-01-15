@@ -1,0 +1,99 @@
+@media screen and (max-width: 688px){
+
+    /* --------GLOBAL---------- */
+    .container {
+        width: 95%;
+    }
+
+    .btn {
+        padding: 8px 18px;
+    }
+
+    /* --------------navbar--------------*/
+    .menu-container {
+        width: 40px;
+        height: 40px;
+    }
+    .menu {
+        position: absolute;
+        left: -16px;
+        top: -45px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fff;
+        width: 250px;
+        height: 100vh;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .menu-item {
+        margin-bottom: 4px;
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #E02C6D;
+    }
+    .menu-item a { 
+        display: block;
+        padding: 10px;
+        color: #fff;
+    }
+    .menu-container label {
+        display: inline-block;
+    }
+    #menu-toggle:checked ~ .menu {
+        width: 0;
+        left: -100px;
+        visibility: hidden;
+    }
+/* ----------HERO section------- */
+
+.hero-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+.hero-content, .hero-bg {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 15px;
+}
+.hero-title {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+}
+/* Player section */
+.player-section{
+    margin: 40px 0;
+}
+.players {
+    grid-template-columns: 1fr;
+}
+
+/* Highlight section */
+
+.highlight-container{
+    flex-direction: column;
+    padding: 0;
+    width: 95%;
+}
+.highlight-content, .highlight-image{
+    max-width: 100%;
+    padding: 30px 10px;
+}
+.highlight-title{
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 40px;
+}
+
+/* ------FOOTER------- */
+.footer-logo img {
+    width: 250px;
+}
+.social {
+    width: 170px;
+}
+}
